@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC", "SitecoreIoC\SitecoreIoC.csproj", "{12402E38-282F-46E4-A039-1195835FDBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravypower.Kernel.Reflection", "Gravypower.Kernel.Reflection\Gravypower.Kernel.Reflection.csproj", "{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravypower.Kernel.Reflection.Tests", "Gravypower.Kernel.Reflection.Tests\Gravypower.Kernel.Reflection.Tests.csproj", "{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.Tests.Common", "SitecoreIoC.Tests.Common\SitecoreIoC.Tests.Common.csproj", "{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gravypower", "Gravypower", "{E94002CD-4373-4C8E-A2D5-8F4784F76EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.SimpleInjector", "SitecoreIoC.SimpleInjector\SitecoreIoC.SimpleInjector.csproj", "{87D4D999-F963-4751-840E-CE6256B8F34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.SimpleInjector.Tests", "SitecoreIoC.SimpleInjector.Tests\SitecoreIoC.SimpleInjector.Tests.csproj", "{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F070B15E-1107-4F90-A6F2-18D7B03D423C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleInjector", "SimpleInjector", "{E914B0F7-7DF2-47FF-8043-63214730D124}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{C672B197-C69F-4E37-8C07-AD2795FA43F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore 8.2.170728", "Sitecore 8.2.170728", "{EDC5BF99-163A-476C-BF7A-9F67D7691C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleInjector", "SimpleInjector", "{BE373958-4CD3-46B3-9E19-A64DA36587CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC", "Sitecore 8.2.170728\SitecoreIoC\SitecoreIoC.csproj", "{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.SimpleInjector", "Sitecore 8.2.170728\SitecoreIoC.SimpleInjector\SitecoreIoC.SimpleInjector.csproj", "{48B175E9-C645-4532-B18B-83128C56FC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.SimpleInjector.Example", "Sitecore 8.2.170728\SitecoreIoC.SimpleInjector.Example\SitecoreIoC.SimpleInjector.Example.csproj", "{D7251D91-B898-4EE6-A19A-BBD4E579AED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIoC.Tests", "SitecoreIoC.Tests\SitecoreIoC.Tests.csproj", "{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Sitecore 7.2|Any CPU = Sitecore 7.2|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{12402E38-282F-46E4-A039-1195835FDBC8}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{87D4D999-F963-4751-840E-CE6256B8F34A}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Sitecore 7.2|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7}.Sitecore 7.2|Any CPU.Build.0 = Release|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Sitecore 7.2|Any CPU.ActiveCfg = Release|Any CPU
+		{48B175E9-C645-4532-B18B-83128C56FC21}.Sitecore 7.2|Any CPU.Build.0 = Release|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Sitecore 7.2|Any CPU.ActiveCfg = Sitecore 7.2|Any CPU
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5}.Sitecore 7.2|Any CPU.Build.0 = Sitecore 7.2|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Sitecore 7.2|Any CPU.ActiveCfg = Release|Any CPU
+		{AC26F92A-FF96-4EBA-B3B2-B8FE6A7A4BAD}.Sitecore 7.2|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BD22950-C2F8-4D7C-BE9C-3B86E9DC2227} = {E94002CD-4373-4C8E-A2D5-8F4784F76EBE}
+		{B1C3A729-193F-4453-AFDE-1EFAAD1C6BE5} = {E94002CD-4373-4C8E-A2D5-8F4784F76EBE}
+		{C0CC3648-BDCA-4F04-9648-3D21E0CD1FCD} = {F070B15E-1107-4F90-A6F2-18D7B03D423C}
+		{87D4D999-F963-4751-840E-CE6256B8F34A} = {E914B0F7-7DF2-47FF-8043-63214730D124}
+		{B60B92ED-8445-4269-AFEA-A2F1C6BD5058} = {E914B0F7-7DF2-47FF-8043-63214730D124}
+		{E914B0F7-7DF2-47FF-8043-63214730D124} = {C672B197-C69F-4E37-8C07-AD2795FA43F9}
+		{BE373958-4CD3-46B3-9E19-A64DA36587CC} = {EDC5BF99-163A-476C-BF7A-9F67D7691C06}
+		{5BC5BF1D-8696-4CAA-9C51-DE0FE567C5A7} = {EDC5BF99-163A-476C-BF7A-9F67D7691C06}
+		{48B175E9-C645-4532-B18B-83128C56FC21} = {BE373958-4CD3-46B3-9E19-A64DA36587CC}
+		{D7251D91-B898-4EE6-A19A-BBD4E579AED5} = {BE373958-4CD3-46B3-9E19-A64DA36587CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFD859CD-084B-447E-87F0-5786E60E8256}
+	EndGlobalSection
+EndGlobal
